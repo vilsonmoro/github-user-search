@@ -3,14 +3,18 @@ import { NavLink } from 'react-router-dom';
 
 import './styles.scss';
 
-const Navbar = () => (
-     <nav className="navbar-container">
-     <NavLink to="/" className="nav-link">
-               <span className="navbar-item">
-                    Bootcamp DevSuperior
-               </span>
-          </NavLink>
-     </nav>
+type Props = {
+     showLogout: boolean;
+}
+
+const Navbar = ({showLogout} : Props) => (
+     <nav className="main-nav">
+        <NavLink to="/" exact className="logo">
+             <span>Movieflix</span>
+        </NavLink>
+        
+        <span className={`btn-logout showLogout ?  btn-show : btn-hide`}>SAIR</span>
+    </nav>
 );
 
 export default Navbar;

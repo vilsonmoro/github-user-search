@@ -1,36 +1,50 @@
-.home-container{
-    padding-left: 120px;
-    margin-top: 117px;
+.home-content{   
+    width: 50%;
+    float: left;    
 }
-.home-title{
-    font-family: Red Hat Display;
+.form-login{
+    width: 50%;
+    float: right;
+
+}
+
+.lb-avalie{    
+    margin-left: 144px;
+    padding-top: 73px;
+    font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 64px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.02em;
-    color: #062847;
-    margin-bottom: 24px;       
+    font-size: 55px;
+    line-height: 75px;
+    /* identical to box height */
+
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+   
 }
 
-.home-description{
-    font-family: Roboto;
+.lb-tell{        
+    margin-left: 144px;
+    margin-top: 19px;
+    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 36px;
-    color: #5A6774;
-       
-    margin-top: 24px;
-    margin-bottom: 48px;
-    width: 600px;
-    border: 0px;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.015em;
+
+    color: #F2F2F2;
+    
 }
 
-.home-description a{
-    text-decoration: none;
-    color: #1890FF;
+.main-image{
+    margin-left: 174px;
+    margin-top: 52px;
+}
+
+
+.home-container{ 
+    width: 100%;
 }
 

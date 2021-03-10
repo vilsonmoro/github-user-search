@@ -1,6 +1,7 @@
+import Catalog from "pages/Catalog";
+import Detail from "pages/Detail";
 import Home from "pages/Home";
-import Search from "pages/Home/Search";
-import React from "react";
+
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
@@ -11,8 +12,12 @@ const Routes = () => (
                 <Home />
             </Route>
 
-            <Route path="/search">
-                <Search />
+            <Route path="/catalog">
+                <Catalog />
+            </Route>
+
+            <Route path="/movie">
+                <Detail />
             </Route>
         </Switch>
     </BrowserRouter>
